@@ -1,0 +1,81 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+p,
+a {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+/* css footer */
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  margin-top: 10px;
+  padding: 20px;
+}
+.theodoi {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 5px;
+  margin-top: 10px;
+}
+.theodoi img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.footer a {
+  text-decoration: none;
+  color: #000;
+  transition: transform 0.3s ease;
+}
+.footer a:hover {
+  color: rgb(26, 28, 123);
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.gop_y {
+  display: flex;
+  flex-direction: column;
+  margin-left: -20px;
+}
+.feedback {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.feedback input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.feedback button {
+  padding: 10px 20px;
+  background-color: #aab5aa;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.feedback button:hover {
+  background-color: #45a049;
+}
